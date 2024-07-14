@@ -1,1 +1,1 @@
-# jekyll-chirpy-modified
+Modifications to the Jekyll Chirpy theme.
