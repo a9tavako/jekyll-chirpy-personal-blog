@@ -1,0 +1,14 @@
+---
+layout: default
+refactor: true
+---
+
+<ul>
+  {% for p_post in site.personalPosts %}
+  <li>
+    <a href="{{ p_post.url }}">{{ p_post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+

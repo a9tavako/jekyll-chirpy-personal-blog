@@ -9,24 +9,24 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+timezone: America/Vancouver
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Arman Tavakoli # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Welcome # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Arman's personal blog.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://www.armantavakoli.ca"
 
 github:
-  username: github_username # change to your github username
+  username: a9tavako # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -34,24 +34,24 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Arman Tavakoli
+  email: arman@armantavakoli.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/a9tavako # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/artavak/
 
 # Site Verification Settings
-webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+#webmaster_verifications:
+#  google: # fill in your Google verification code
+#  bing: # fill in your Bing verification code
+#  alexa: # fill in your Alexa verification code
+#  yandex: # fill in your Yandex verification code
+#  baidu: # fill in your Baidu verification code
+#  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -93,10 +93,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+#cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -171,6 +171,10 @@ collections:
   app:
     output: true
     permalink: /:name
+  personalPosts:
+    output: true
+    permalink: /personalPosts/:name
+    sort_by: date
 
 defaults:
   - scope:
