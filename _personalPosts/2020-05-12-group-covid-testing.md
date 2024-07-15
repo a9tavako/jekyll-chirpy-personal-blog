@@ -4,9 +4,6 @@ title: "Group Testing for Covid-19"
 date: 2020-05-12
 categories: personalPosts
 ---
-
-Suppose we need to test 100 people for coronavirus. Say each test takes 5 minutes; so a single machine can do it in 8 hours and 20 minutes. We can reduce that to 5 hours using basic group testing. Suppose for technological reasons we are limited to mixing only 2 samples at a time. Because…
-
 Suppose we need to test 100 people for coronavirus. Say each test takes 5 minutes; so a single machine can do it in 8 hours and 20 minutes. We can reduce that to 5 hours using basic group testing.
 
 Suppose for technological reasons we are limited to mixing only 2 samples at a time. Because of operational reasons, suppose we can take at most 2 samples from each person. Further suppose among all the people who are tested 5% of them are positive (positivity can go higher in severely hit areas).
