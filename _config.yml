@@ -173,7 +173,7 @@ collections:
     permalink: /:name
   personalPosts:
     output: true
-    permalink: /personalPosts/:name
+    permalink: /personalPosts/:title/
     sort_by: date
 
 defaults:
